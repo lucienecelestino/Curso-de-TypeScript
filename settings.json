@@ -1,0 +1,24 @@
+{
+
+"workbench.iconTheme": "material-icon-theme",
+"editor.fontSize": 20,
+"explorer.confirmDelete": false,
+"workibench.startupEditor": "newUntitledFile",
+"explorer.compactFolders": false,
+"liveServer.settings.donotShowInfoMsg": true,
+"editor.tabSize": 2,
+"editor.suggest.shareSuggestSelections": true,
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+"gitlens.hovers.currentLine.over": "line",
+
+"emmet.syntaxProfiles": { "javascript": "jsx" },
+"emmet.includeLanguages": { "javascript": "javascriptreact" },
+    
+"javascript.suggest.autoImports": true,
+"typescript.suggest.autoImports": true,
+"terminal.integrated.fontSize": 17,
+"debug.console.fontSize": 10,
+"workbench.colorTheme": "Dracula"
+    
+       
+}
