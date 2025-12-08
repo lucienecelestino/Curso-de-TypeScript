@@ -1,5 +1,5 @@
 // any é basicamente qualquer tipo, não faz sentido, definir como qualquer coisa, 
-// já que a ideia de usar o type script, é ter a tipágem forte
+// já que a ideia de usar o type script, é ter a tipagem forte
 
 let precoProduto;
 precoProduto = true;
