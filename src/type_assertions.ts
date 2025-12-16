@@ -10,7 +10,8 @@ mudaStatus = statusAtual as number;
 mudaStatus = <number>statusAtual;
 console.log(mudaStatus);
 
-//exemplo com string
+
 let query: unknown = 'pizza';
+//exemplo afirmando que é uma string
 let searchTerm: string = query as string;
 console.log('Seach TERM: ', searchTerm);

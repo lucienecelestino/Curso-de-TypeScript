@@ -8,7 +8,7 @@ mudaStatus = statusAtual;
 //outra forma de afirmar é:
 mudaStatus = statusAtual;
 console.log(mudaStatus);
-//exemplo com string
 let query = 'pizza';
+//exemplo afirmando que é uma string
 let searchTerm = query;
 console.log('Seach TERM: ', searchTerm);
