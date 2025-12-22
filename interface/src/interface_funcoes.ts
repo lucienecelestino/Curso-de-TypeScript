@@ -1,3 +1,4 @@
+//ex1
 interface ICursoProps{
     id: string;
     nome: string;
@@ -23,9 +24,9 @@ const novoCurso: ICursoProps ={
     }*/
 }
 console.log(novoCurso);
-
 console.log(novoCurso.promocao(350));
 
+//ex2
 interface ISomaProps{
    // dentro da propria interface, criamos a funcao abaixo
     (valor1: number, valor2: number): number;
