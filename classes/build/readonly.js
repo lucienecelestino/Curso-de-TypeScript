@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-//podemos ver e ler esse atributo porem nao podemos altera-lo
+//readonly serve apenas para atributos - podemos ver e ler esse atributo porem nao podemos altera-lo
 class Pessoa {
     id = "123";
     nome;

@@ -1,3 +1,6 @@
+// com o type alias conseguimos criar tipos mais poderosos, com mais informacoes do que tipos primitivos
+
+
 type Uuid = string | number | null;
 
 function acessar(uuid: Uuid, nome: string){ // ao inves de ter que escrever sempre : uuid: string | number | null, definimos Uuid como um tipo

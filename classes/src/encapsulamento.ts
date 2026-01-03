@@ -1,7 +1,7 @@
 /*
     4 MODIFICADORES: 
     Public
-    Private
+    Private - podem ser acessadas e ou alteradeas apenas por meio da classe em que foram criadas
     Protected - protegido - pode ser acessado dentro da classe que ele criou, bem como dentro da classe filha
     readonly - não pode modificar, apenas ver e acessar o valor dele
     */
