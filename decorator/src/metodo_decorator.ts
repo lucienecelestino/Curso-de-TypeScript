@@ -8,6 +8,8 @@ function verificaPessoa(idade: number){
         // console.log("Descriptor", descriptor);
 
         const metodoOriginal = descriptor.value// Salvando nosso metodo original
+
+        //reescrevendo nosso metodo
         descriptor.value = function (){
            if(idade = 18){
             console.log("Estamos cadastrando como Pessoa menor de idade");
@@ -15,7 +17,7 @@ function verificaPessoa(idade: number){
             console.log("Estamos cadastrando como Pessoa maior de idade");
            }
 
-           //retornando o conteudo que tem no metodo original, ou seja o que tinha nele, antes de alterarmos ele
+           //retornando o conteudo que tem no metodo original, ou seja o que tinha nele, antes de sobrescrevermos ele
            return metodoOriginal.apply(this);
         }
 
