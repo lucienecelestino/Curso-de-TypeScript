@@ -48,6 +48,6 @@ function deletarTarefa(posicaoItem) {
 }
 //Salvando no LocalStorage, ou seja salvando os dados Permanentemente
 function salvarDados() {
-    //JSON.stringify -> Vai transformar nosso array de string em string apenas, pois é isso que o localStorage aceita
+    //JSON.stringify - Vai transformar nosso array de string em string apenas, pois é isso que o localStorage aceita
     localStorage.setItem("@listagem_tarefas", JSON.stringify(listaTarefas));
 }
