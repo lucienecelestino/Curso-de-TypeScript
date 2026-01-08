@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #7aa2f7, #9ec6ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+#app {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 420px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;       
+    justify-content: center; /* Centraliza os botões na linha */
+    gap: 10px;
+    margin-top: -20px;
+}
+
+.botoes button {
+    flex: 1 1 40%;
+    min-width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #4f7cff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.botoes button:hover {
+    background: #3c68e0;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 12px;
+    background: #f2f4f8;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

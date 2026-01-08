@@ -1,30 +1,36 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projeto Aula</title>
     </head>
     <body>
-        <h1>Realizar Operações</h1>
+        <div id = "app">
+            <h1>Realizar Operações</h1>
 
-        <span>Numero 1:</span><br/>
-        <input type="number" id="num1"/><br/>
+           <div class="campo">
+              <span>Numero 1:</span><br/>
+              <input type="number" id="num1"/><br/>
+          </div>
 
-        <spam>Numero 2:</spam><br/>
-        <input type="number" id="num2"/><br/>
-
+          <div class="campo">
+             <spam>Numero 2:</spam><br/>
+             <input type="number" id="num2"/><br/>
+          </div>
         <br/><br/>
 
-        <button id="buttonSomar">Somar</button>
-        <button id="buttonSubtrair">Subtrair</button>
-        <button id="buttonMultiplicar">Multiplicar</button> <br/><br/>
-        <button id="buttonDividir">Dividir</button>
-        <button id="buttonPotencia">Potencia</button>
-        <button id="buttonTriangulo">Area do Triangulo</button>
-
+        <div class="botoes">
+            <button id="buttonSomar">Somar</button>
+            <button id="buttonSubtrair">Subtrair</button>
+            <button id="buttonMultiplicar">Multiplicar</button> <br/><br/>
+            <button id="buttonDividir">Dividir</button>
+            <button id="buttonPotencia">Potencia</button>
+            <button id="buttonTriangulo">Area do Triangulo</button>
+        </div>
        
-        <p>Resultado da Operação: <span id="resultado">-</span></p>
+        <p class="resultado">Resultado da Operação: <span id="resultado">-</span></p>
 
         <script src="./../build/index.js"></script>
     </body>
